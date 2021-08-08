@@ -1,0 +1,98 @@
+[
+    {
+        "type": "top",
+        "path": "i/avatars/attire/05003/fshirt4"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow05"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth011"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose009"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead01"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/03009/fhair1"
+    },
+    {
+        "type": "neck",
+        "path": "i/avatars/attire/03005/fnecklace4"
+    },
+    {
+        "type": "coat",
+        "path": "i/avatars/attire/07011/fjacket1"
+    },
+    {
+        "type": "canh",
+        "path": "i/avatars/items/candy_hair/canh_001"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/events/autumn/2018/outfit_003/fpants1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/feye1"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/items/monthly/2009_10/fmouth1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/08029/fsocks6"
+    },
+    {
+        "type": "misc",
+        "path": "i/avatars/ministores/blind_box/oberons_night_box_001/outfit_009/misc1"
+    },
+    {
+        "type": "ta08",
+        "path": "i/avatars/ministores/blind_box/monkey_king_box_001/outfit_010/ta08/ta08_01"
+    },
+    {
+        "type": "ta07",
+        "path": "i/avatars/ministores/blind_box/monkey_king_box_001/outfit_011/ta07/ta07_01"
+    },
+    {
+        "type": "midd",
+        "path": "i/avatars/attire/02029/fbelt5"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/events/halloween/2011/outfit_005/fshoes1"
+    },
+    {
+        "type": "hdec",
+        "path": "i/avatars/ministores/blind_box/oberons_day_box_002/outfit_007/hairdec1"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/events/christmas/2014/outfit_004/ta_01/ta01_03"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/events/summer/2015/outfit_019/ta_01/ta01_03"
+    },
+    {
+        "type": "bags",
+        "path": "i/avatars/events/summer/2019/outfit_006/fbags3"
+    }
+]

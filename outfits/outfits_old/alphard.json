@@ -1,0 +1,86 @@
+[
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/msock1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/male/eyes/meye01"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/male/eyebrows/meyebrow03"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/male/faces/mouth008"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/male/faces/nose009"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/male/heads/mhead02"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/male/heads/mhead02"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/male/heads/mhead02"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/male/heads/mhead02"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/male/heads/mhead02"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/male/heads/mhead02"
+    },
+    {
+        "type": "bear",
+        "path": "i/avatars/bodies/faces_rev/male/beards/beard001"
+    },
+    {
+        "type": "mous",
+        "path": "i/avatars/bodies/male/faces/moustache002"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/07013/mhair1"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/attire/02014/mshirt1"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/ministores/blind_box/light_box_002/outfit_006/mshoes1"
+    },
+    {
+        "type": "holl",
+        "path": "i/avatars/ministores/blind_box/bento_box_002/outfit_011/mhold4/left"
+    },
+    {
+        "type": "scar",
+        "path": "i/avatars/ministores/blind_box/love_box_003/outfit_004/mscarf1"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/ministores/blind_box/fairy_tale_box_002/outfit_007/mhat1"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/ministores/blind_box/fairy_tale_box_002/outfit_007/mpants1"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/events/summer/2017/outfit_010/mglove5"
+    }
+]

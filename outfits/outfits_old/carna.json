@@ -1,0 +1,78 @@
+[
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/fsock1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye08"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow03"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth004"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose009"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead01"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead01"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead01"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/05011/fhair1"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/ministores/blind_box/light_box_001/outfit_008/fshirt1"
+    },
+    {
+        "type": "hdec",
+        "path": "i/avatars/events/halloween/2009/halloween_004/fhairdec2"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/events/halloween/2008/halloween_012/fpants4"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/events/halloween/2008/halloween_002/fshoes1"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/events/halloween/2008/halloween_019/fhat1"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/events/christmas/2008/christmas_001/fglove1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/feye1"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/items/monthly/2009_10/fmouth1"
+    },
+    {
+        "type": "ta07",
+        "path": "i/avatars/ministores/blind_box/bento_box_003/outfit_008/ta07/ta07_04"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/events/christmas/2014/outfit_004/ta_01/ta01_03"
+    }
+]

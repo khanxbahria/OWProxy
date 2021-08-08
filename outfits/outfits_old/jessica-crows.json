@@ -1,0 +1,34 @@
+[
+    {
+        "type": "top",
+        "path": "i/avatars/events/halloween/2008/halloween_012/fshirt4"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/events/halloween/2008/halloween_012/fpants4"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/feye1"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/events/summer/2017/outfit_002/fhair1"
+    },
+    {
+        "type": "wing",
+	"path": "i/avatars/ministores/blind_box/fright_box_001/outfit_001/wings1"
+    },
+    {
+        "type": "mask",
+        "path": "i/avatars/items/monthly/2017_08/fmask5"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/ministores/blind_box/pirate_box_001/outfit_007/fshoes1"
+    },
+    {
+        "type": "glov",
+        "path": "i/avatars/events/halloween/2015/outfit_007/fglove5"
+    }
+]

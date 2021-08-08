@@ -1,0 +1,59 @@
+[
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/feye1"
+    },
+
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow11"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth011"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose010"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead10"
+    },
+    {
+        "type": "canh",
+        "path": "i/avatars/items/candy_hair/canh_015"
+    },
+    {
+        "type": "cans",
+        "path": "i/avatars/items/candy_skin/cans_015"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/events/contest/2012/winter/outfit_002/ta01_01"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/events/saintpatricks/2017/outfit_001/fhat1"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/events/christmas/2018/outfit_021/fhair1"
+    },
+    {
+        "type": "full",
+        "path": "i/avatars/events/saintpatricks/2019/outfit_003/fbodysuit1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/events/christmas/2019/outfit_007/fsocks3"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/events/halloween/2020/outfit_001/fshoes3"
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "type": "top",
+        "path": "i/avatars/attire/06000/fshirt5"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow03"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth004"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose005"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead10"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/ministores/partners/vfc/purchasable/jayk/fglove1"
+    },
+    {
+        "type": "mask",
+        "path": "i/avatars/ministores/soho/ministores_formal/formal_007/fmask1"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/attire/07011/fshoes1"
+    },
+    {
+        "type": "cans",
+        "path": "i/avatars/items/candy_skin/cans_001"
+    },
+    {
+        "type": "bags",
+        "path": "i/avatars/events/summer/2010/outfit_002/fbags7"
+    },
+    {
+        "type": "neck",
+        "path": "i/avatars/attire/02012/fnecklace1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/feye1"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/attire/07019/fpants5"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/02020/fhair1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/events/summer/2017/outfit_005/fsocks1"
+    },
+    {
+        "type": "coat",
+        "path": "i/avatars/events/summer/2017/outfit_004/fjacket5"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/events/summer/2017/outfit_011/fhat1"
+    },
+    {
+        "type": "ta03",
+        "path": "i/avatars/items/tattoo/tattoo_007/ta03/ta03_01"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/items/tattoo/tattoo_021/ta01/ta01_03"
+    }
+]

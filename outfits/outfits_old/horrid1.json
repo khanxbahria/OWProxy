@@ -1,0 +1,90 @@
+[
+    {
+        "type": "coat",
+        "path": "i/avatars/attire/02001/mjacket5"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/attire/03003/mshirt5"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/05013/mhair1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/06000/msocks6"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/male/eyebrows/meyebrow03"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/male/faces/nose010"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/male/heads/mhead06"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/items/hat/hat_003/mhat5"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/male/faces/mouth011"
+    },
+    {
+        "type": "neck",
+        "path": "i/avatars/attire/07013/mnecklace1"
+    },
+    {
+        "type": "bags",
+        "path": "i/avatars/events/summer/2010/outfit_002/mbags7"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/attire/06016/mshoes5"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/ministores/vegas/outfit_017/mglove5"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/attire/06022/mpants1"
+    },
+    {
+        "type": "mask",
+        "path": "i/avatars/events/summer/2017/outfit_010/mmask2"
+    },
+    {
+        "type": "ta05",
+        "path": "i/avatars/events/halloween/2018/outfit_003/ta05_01"
+    },
+    {
+        "type": "ta06",
+        "path": "i/avatars/events/halloween/2018/outfit_003/ta06_01"
+    },
+    {
+        "type": "ta07",
+        "path": "i/avatars/events/halloween/2018/outfit_003/ta07_01"
+    },
+    {
+        "type": "ta08",
+        "path": "i/avatars/events/halloween/2018/outfit_003/ta08_01"
+    },
+    {
+        "type": "holl",
+        "path": "i/avatars/items/monthly/2020_06/mhold1/left"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/events/halloween/2020/outfit_010/ta01_01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/male/eyes/meye20"
+    }
+]

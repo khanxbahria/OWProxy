@@ -1,0 +1,40 @@
+[
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/06000/fsocks6"
+    },
+    {
+        "type": "full",
+        "path": "i/avatars/attire/05017/fbodysuit10"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/05007/fhair1"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/ministores/blind_box/light_box_001/outfit_009/fglove1"
+    },
+    {
+        "type": "neck",
+        "path": "i/avatars/ministores/soho/ministores_jewelry/jewelry_001/fnecklace2"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/events/summer/2017/outfit_002/fhair1"
+    },
+
+    {
+        "type": "eyes",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/feye1"
+    },
+
+    {
+        "type": "shoe",
+        "path": "i/avatars/attire/03024/fshoes5"
+    },
+    {
+        "type": "ta09",
+        "path": "i/avatars/items/tattoo/tattoo_009/ta09/ta09_09"
+    }
+]

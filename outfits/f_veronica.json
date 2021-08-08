@@ -1,0 +1,34 @@
+[
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/npc_veronica/fhair1"
+    },
+    {
+        "type": "pant",
+        "path": "i/avatars/attire/npc_veronica/fpants1"
+    },
+    {
+        "type": "shir",
+        "path": "i/avatars/attire/npc_veronica/fshirt1"
+    },
+    {
+        "type": "fore",
+        "path": "i/avatars/attire/npc_veronica/ffore1"
+    },
+    {
+        "type": "brac",
+        "path": "i/avatars/attire/npc_veronica/fbracelet1/left"
+    },
+    {
+        "type": "neck",
+        "path": "i/avatars/attire/npc_veronica/fnecklace1"
+    },
+    {
+        "type": "brac",
+        "path": "i/avatars/attire/npc_veronica/fbracelet1/right"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/attire/npc_veronica/fshoes1"
+    }
+]

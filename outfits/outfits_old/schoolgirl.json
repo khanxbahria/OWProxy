@@ -1,0 +1,58 @@
+[
+    {
+        "type": "bott",
+        "path": "i/avatars/attire/03006/fpants5"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/fsock1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye08"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow11"
+    },
+    {
+        "type": "mask",
+        "path": "i/avatars/events/autumn/2016/outfit_002/fmask1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/04026/fsocks3"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth011"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose010"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead10"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/attire/03010/fshirt1"
+    },
+    {
+        "type": "bags",
+        "path": "i/avatars/items/bags/bags_002/fbags1"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/events/contest/2012/winter/outfit_002/ta01_01"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/events/christmas/2018/outfit_021/fhair1"
+    }
+]

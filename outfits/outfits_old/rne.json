@@ -1,0 +1,86 @@
+[
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/04001/fhair2"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/fsock1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow03"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth010"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose007"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead01"
+    },
+    {
+        "type": "cans",
+        "path": "i/avatars/items/candy_skin/cans_003"
+    },
+    {
+        "type": "full",
+        "path": "i/avatars/events/halloween/2008/halloween_010/fbodysuit4"
+    },
+    {
+        "type": "neck",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_011/fnecklace1"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/items/monthly/2010_09/fglove5"
+    },
+    {
+        "type": "hdec",
+        "path": "i/avatars/ministores/blind_box/dark_box_004/outfit_004/hairdec1"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/ministores/blind_box/fright_box_006/outfit_008/ta01/ta01_01"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/events/christmas/2014/outfit_004/ta_01/ta01_04"
+    },
+    {
+        "type": "ta08",
+        "path": "i/avatars/ministores/blind_box/bento_box_004/outfit_011/tattoo_004/ta08/ta08_01"
+    },
+    {
+        "type": "mask",
+        "path": "i/avatars/ministores/blind_box/fright_box_007/outfit_007/fmask1"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/ministores/blind_box/fright_box_007/outfit_007/fshoes1"
+    },
+    {
+        "type": "wing",
+        "path": "i/avatars/ministores/blind_box/fright_box_007/outfit_007/wings1"
+    }
+]

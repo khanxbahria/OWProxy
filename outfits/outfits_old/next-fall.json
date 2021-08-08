@@ -1,0 +1,47 @@
+[
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/fsock1"
+    },
+{"type": "eyes", "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/feye1"},
+    {
+        "type": "mout",
+        "path": "i/avatars/items/monthly/2009_10/fmouth1"
+    },
+{"type": "top", "path": "i/avatars/attire/06000/fshirt6"},
+
+    {
+     	"type": "hair",
+        "path": "i/avatars/events/halloween/2008/halloween_003/fhair1"
+    },
+    {
+     	"type": "mask",
+        "path": "i/avatars/ministores/blind_box/pirate_box_002/outfit_006/fmask1"
+    },
+    {
+     	"type": "hat",
+        "path": "i/avatars/events/halloween/2008/halloween_019/fhat1"
+    },
+
+    {
+     	"type": "shoe",
+        "path": "i/avatars/ministores/blind_box/pirate_box_001/outfit_007/fshoes1"
+    },
+
+    {
+        "type": "bott",
+        "path": "i/avatars/events/christmas/2015/outfit_008/fpants2"
+    },
+{"path": "i/avatars/ministores/pier/ministores_fight/outfit_010/fglove8", "type": "glove"},
+    {
+        "type": "coat",
+        "path": "i/avatars/events/spring/2020/outfit_003/fjacket3"
+    },
+
+    {
+     	"type": "wing",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_001/wings1"
+    }
+
+
+]

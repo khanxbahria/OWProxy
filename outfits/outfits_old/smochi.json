@@ -1,0 +1,62 @@
+[
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow10"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth009"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose005"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead10"
+    },
+    {
+        "type": "cane",
+        "path": "i/avatars/items/candy_eye/cane_014"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/02030/fhair1"
+    },
+    {
+        "type": "hdec",
+        "path": "i/avatars/ministores/blind_box/oberons_night_box_003/outfit_005/hairdec1"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/events/christmas/2014/outfit_004/ta_01/ta01_04"
+    },
+    {
+        "type": "full",
+        "path": "i/avatars/ministores/blind_box/fright_box_007/outfit_004/fbodysuit1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/events/autumn/2016/outfit_007/fsocks5"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/events/halloween/2016/outfit_006/ta_01/ta01_03"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/events/halloween/2017/outfit_022/fglove1"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/events/christmas/2019/outfit_001/fshoes3"
+    },
+    {
+        "type": "coat",
+        "path": "i/avatars/events/halloween/2020/outfit_001/fjacket1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye18"
+    }
+]

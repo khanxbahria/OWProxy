@@ -1,0 +1,54 @@
+[
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/attire/underwear/fshirt1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye10"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth011"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose009"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead01"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/04001/fsocks5"
+    },
+    {
+        "type": "hdec",
+        "path": "i/avatars/ministores/blind_box/oberons_day_box_002/outfit_007/hairdec1"
+    },
+    {
+        "type": "coat",
+        "path": "i/avatars/events/christmas/2016/outfit_007/fjacket1"
+    },
+    {
+        "type": "bags",
+        "path": "i/avatars/ministores/blind_box/panda_box_001/outfit_009/fbags1"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/events/easter/2019/outfit_004/fhair1"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/events/autumn/2020/outfit_001/fpants3"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow16"
+    }
+]

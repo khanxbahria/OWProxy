@@ -1,0 +1,58 @@
+[
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye08"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow08"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth011"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose007"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead01"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/02028/fsocks5"
+    },
+    {
+        "type": "coat",
+        "path": "i/avatars/attire/05002/fjacket6"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/attire/05002/fshoes6"
+    },
+    {
+        "type": "wing",
+        "path": "i/avatars/ministores/zoes_club/fright_box_001_white/outfit_001/wings1"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/ministores/zoes_club/fright_box_001_white/outfit_003/fhat1"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/ministores/pier/ministores_bathingsuits/suit_0049/fpants1"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/ministores/pier/ministores_bathingsuits/suit_0049/fshirt1"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/events/halloween/2019/outfit_007/fhair1"
+    }
+]

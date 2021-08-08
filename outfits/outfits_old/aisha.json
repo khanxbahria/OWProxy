@@ -1,0 +1,66 @@
+[
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye10"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow13"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth011"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose009"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead01"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/06005/fsocks1"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/attire/02015/fshirt5"
+    },
+    {
+        "type": "neck",
+        "path": "i/avatars/attire/02012/fnecklace1"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/events/halloween/2008/halloween_012/fpants4"
+    },
+    {
+        "type": "hdec",
+        "path": "i/avatars/attire/08014/fhairdec2"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/feye1"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/02022/fhair1"
+    },
+    {
+        "type": "midd",
+        "path": "i/avatars/ministores/blind_box/fright_box_003/outfit_002/fbelt1"
+    },
+    {
+        "type": "hdec",
+        "path": "i/avatars/ministores/blind_box/oberons_day_box_002/outfit_007/hairdec1"
+    },
+    {
+        "type": "holl",
+        "path": "i/avatars/ministores/wonderland/ministores_mysterymart/mysterymart_038/fhold7/left"
+    }
+]

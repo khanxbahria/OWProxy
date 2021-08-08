@@ -1,0 +1,46 @@
+[
+    {
+        "type": "hand",
+        "path": "i/celeb/avatars/starter/underwear/outfit_001/fglove1"
+    },
+    {
+        "type": "hair",
+        "path": "i/celeb/avatars/starter/hair/fhair4"
+    },
+    {
+        "type": "coat",
+        "path": "i/celeb/avatars/starter/casual/fjacket2"
+    },
+    {
+        "type": "bott",
+        "path": "i/celeb/avatars/starter/casual/fpants2"
+    },
+    {
+        "type": "top",
+        "path": "i/celeb/avatars/starter/casual/fshirt2"
+    },
+    {
+        "type": "shoe",
+        "path": "i/celeb/avatars/starter/casual/fshoes2"
+    },
+    {
+        "type": "head",
+        "path": "i/vg/avatars/faces/female/heads/fhead01"
+    },
+    {
+        "type": "brow",
+        "path": "i/vg/avatars/faces/female/eyebrows/feyebrow01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/vg/avatars/faces/female/eyes/feye05"
+    },
+    {
+        "type": "nose",
+        "path": "i/vg/avatars/faces/female/nose/fnose04"
+    },
+    {
+        "type": "mout",
+        "path": "i/vg/avatars/faces/female/mouth/fmouth05"
+    }
+]

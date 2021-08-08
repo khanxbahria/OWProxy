@@ -1,0 +1,22 @@
+[
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/male/eyes/meye03"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/male/eyebrows/meyebrow09"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/male/faces/mouth009"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/male/faces/nose003"
+    },
+    {
+        "type": "all",
+        "path": "i/avatars/attire/npc_doug/mall1"
+    }
+]

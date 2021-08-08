@@ -1,0 +1,4 @@
+PyQt5
+qasync
+pywin32; platform_system=="Windows"
+pyuac; platform_system=="Windows"

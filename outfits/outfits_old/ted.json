@@ -1,0 +1,83 @@
+[
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/04006/mhair1"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/mglove1"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/attire/underwear/mpants1"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/attire/underwear/mshirt1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/male/eyes/meye06"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/male/eyebrows/meyebrow03"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/male/faces/mouth004"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/male/faces/nose009"
+    },
+    {"type": "monthly", "path": "i/avatars/items/monthly/2009_10/fmouth1"},
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/male/heads/mhead06"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/male/heads/mhead06"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/03013/msocks1"
+    },
+    {
+        "type": "bags",
+        "path": "i/avatars/items/bags/bags_001/mbags1"
+    },
+    {
+        "type": "boar",
+        "path": "i/avatars/ministores/boardwalk/ministores_vehicles/skateboard/skateboard_002/mboar1"
+    },
+    {
+        "type": "holl",
+        "path": "i/avatars/ministores/blind_box/cowboy_box_001/outfit_010/mhold1/left"
+    },
+    {
+        "type": "ta07",
+        "path": "i/avatars/events/halloween/2016/outfit_004/tattoo_003/ta07/ta07_01"
+    },
+    {
+        "type": "ta06",
+        "path": "i/avatars/items/tattoo/tattoo_013/ta06/ta06_01"
+    },
+    {
+        "type": "ta03",
+        "path": "i/avatars/items/tattoo/tattoo_007/ta03/ta03_03"
+    },
+    {
+        "type": "ta04",
+        "path": "i/avatars/items/tattoo/tattoo_008/ta04/ta04_01"
+    },
+    {
+        "type": "ta08",
+        "path": "i/avatars/items/tattoo/tattoo_012/ta08/ta08_01"
+    },
+    {
+        "type": "ta05",
+        "path": "i/avatars/items/tattoo/tattoo_013/ta05/ta05_01"
+    }
+]

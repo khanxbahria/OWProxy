@@ -1,0 +1,101 @@
+import threading
+import pyperclip
+
+
+class Plugin:
+    def __init__(self, proxy):
+        self.proxy = proxy
+        self.rec_payloads = []
+        self.is_rec = False
+        self.replace_x = b"\r6\x00\x0ce\xcd\r7\x00\x1fa\x0f"
+        self.replace_with = b"\r6\x00\x0ce\xcd\r7\x00\x1fm\x16"
+        self.is_replace = False
+
+        input_thread = threading.Thread(target=self.input, daemon=True)
+        input_thread.start()
+
+
+    def input_loop(self):
+        print("[+] Accepting input payloads for outbound.")
+        while True:
+            try:
+                inp = input()
+                action, *args = inp.split(" ")
+                self.process_input(action, args)
+            except Exception as e:
+                print(e)
+
+    def process_input(self, action, args):
+        if action == "psend":
+            payload = eval(pyperclip.paste())
+            print(f"[+] Sending {payload} to outbound.")
+            self.proxy.send_outgoing_payload(payload)
+
+        elif action == "send" and len(args) == 1:
+            payload = eval(args[1])
+            self.proxy.send_outgoing_payload(payload)
+            print(f"[+] Payload sent to outbound.")
+
+        elif action == "rec" and len(args) == 1:
+            self.rec_action(args)
+        elif action == "rep":
+            self.rep_action(args)
+        elif action == "replace":
+            self.replace_action(args)
+
+
+    def rec_action(self, args):
+        if args[0] == "start":
+            self.rec_payloads = []
+            self.is_rec = True
+            print("Started recording.")
+
+        elif args[0] == "stop":
+            self.is_rec = False
+            print("Stopped recording.")
+            print(f"{len(self.rec_payloads)} recorded.")
+            pyperclip.copy(f"{self.rec_payloads}")
+
+        elif args[0] == "show":
+            print(f"{len(self.rec_payloads)} recorded payloads.")
+            print(self.rec_payloads)
+            pyperclip.copy(f"{self.rec_payloads}")
+
+    def rep_action(self, args):
+        if args[0] == "all":
+            for payload in self.rec_payloads:
+                print(f"[+] Sending {payload} to outbound.")
+                self.proxy.send_outgoing_payload(payload)
+
+        else:
+            index = int(args[0])
+            payload = self.rec_payloads[index]
+            print(f"[+] Sending {payload} to outbound.")
+            self.proxy.send_outgoing_payload(payload)
+            pyperclip.copy(f"{payload}")
+
+    def replace_action(self, args):
+        if args[0] == "on":
+            self.is_replace = True
+            print("[+] Replace mode turned on.")
+        elif args[0] == "off":
+            self.is_replace = False
+            print("[+] Replace mode turned off.")
+        elif len(args) == 2:
+            self.replace_x, self.replace_with = eval(args[0]), eval(args[1])
+            print("[+] Replace set!")
+
+    def process_outgoing(self, flow):
+        if self.is_rec:
+            self.rec_payloads.append(flow.payload)
+        if self.is_replace:
+            flow.payload = flow.payload.\
+                                replace(self.replace_x, self.replace_with)
+            print("Payload replaced")
+
+        print("Outbound payload:")
+        print(flow.payload)
+        print("")
+
+    def process_incoming(self, flow):
+        pass

@@ -1,0 +1,87 @@
+[
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/fsock1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye07"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow06"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth004"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose009"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead10"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/attire/06005/fshoes3"
+    },
+    {
+        "type": "wril",
+        "path": "i/avatars/ministores/soho/ministores_formal/formal_018/fbracelet1/left"
+    },
+    {
+        "type": "midd",
+        "path": "i/avatars/attire/03024/fbelt2"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/ministores/pier/ministores_fight/outfit_010/fglove8"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/events/christmas/2015/outfit_012/fshirt1"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/events/summer/2017/outfit_012/fpants5"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/ministores/soho/ministore_salon/hair_001/fhair9"
+    },
+    {
+        "type": "holl",
+        "path": "i/avatars/events/olympics/2012/jamaica/fhold1/left"
+    },
+    {
+        "type": "coat",
+        "path": "i/avatars/events/olympics/2012/jamaica/fjacket1"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/events/christmas/2016/outfit_009/fhat4"
+    },
+
+    {
+        "type": "all",
+        "path": "i/avatars/events/easter/2017/outfit_007/pixi2"
+    },
+    {
+        "type": "wrir",
+        "path": "i/avatars/events/swim/2017/outfit_010/fbracelet5/right"
+    },
+    {
+        "type": "mask",
+        "path": "i/avatars/events/summer/2018/outfit_004/fmask4"
+    },
+    {
+        "type": "ta09",
+        "path": "i/avatars/items/tattoo/tattoo_020/ta09/ta09_01"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/items/tattoo/tattoo_021/ta01/ta01_03"
+    }
+]

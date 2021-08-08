@@ -1,0 +1,70 @@
+[
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/fsock1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye07"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow03"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth012"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose009"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead10"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/events/autumn/2017/outfit_001/fhat4"
+    },
+    {
+        "type": "scar",
+        "path": "i/avatars/events/christmas/2018/outfit_002/fscarf5"
+    },
+    {
+        "type": "midd",
+        "path": "i/avatars/events/halloween/2019/outfit_011/fbelt3"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/ministores/vegas/outfit_005/fhair1"
+    },
+    {
+        "type": "holl",
+        "path": "i/avatars/events/olympics/2012/sri_lanka/fhold1/left"
+    },
+    {
+        "type": "bag",
+        "path": "i/avatars/events/olympics/2012/sri_lanka/fbags1"
+    },
+    {
+        "type": "coat",
+        "path": "i/avatars/events/olympics/2012/sri_lanka/fjacket1"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/events/thanksgivingday/2012/outfit_003/fshirt1"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/events/christmas/2016/outfit_034/fpants1"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/events/autumn/2020/outfit_001/fshoes3"
+    }
+]

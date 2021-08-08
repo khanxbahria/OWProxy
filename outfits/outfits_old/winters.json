@@ -1,0 +1,67 @@
+[
+    {
+        "type": "shoe",
+        "path": "i/avatars/attire/05002/fshoes4"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/fsock1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye08"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow14"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth009"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose010"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead03"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/attire/03004/fpants1"
+    },
+    {
+        "type": "glov",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+
+    {
+        "type": "canh",
+        "path": "i/avatars/items/candy_hair/canh_001"
+    },
+    {
+        "type": "cans",
+        "path": "i/avatars/items/candy_skin/cans_001"
+    },
+    {
+        "type": "wing",
+        "path": "i/avatars/ministores/blind_box/cirque_box_001/outfit_003/wings1"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/ministores/vegas/outfit_001/fhair1"
+    },
+    {
+        "type": "mask",
+        "path": "i/avatars/items/monthly/2017_08/fmask5"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/events/christmas/2017/outfit_002/fshirt5"
+    }
+]

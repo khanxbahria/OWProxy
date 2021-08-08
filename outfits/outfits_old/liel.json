@@ -1,0 +1,78 @@
+[
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/fsock1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye08"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow03"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth011"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose007"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead10"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/items/hat/hat_019/fhat3"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/events/summer/2017/outfit_002/fshirt1"
+    },
+    {
+        "type": "coat",
+        "path": "i/avatars/events/christmas/2017/outfit_007/fjacket1"
+    },
+    {
+        "type": "ta07",
+        "path": "i/avatars/items/monthly/2014_07/ta07/ta07_05"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/events/summer/2016/outfit_002/fpants2"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/events/christmas/2016/outfit_003/fshoes2"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/events/summer/2017/outfit_002/fhair1"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/events/summer/2017/outfit_002/fhair1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/items/monthly/2018_09/feye1"
+    },
+    {
+        "type": "ta06",
+        "path": "i/avatars/items/tattoo/tattoo_007/ta06/ta06_03"
+    },
+    {
+        "type": "ta08",
+        "path": "i/avatars/items/tattoo/tattoo_013/ta08/ta08_10"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/items/tattoo/tattoo_023/ta01/ta01_10"
+    }
+]

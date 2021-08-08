@@ -1,0 +1,15 @@
+[
+    {
+     	"type": "hair",
+        "path": "i/avatars/events/summer/2017/outfit_002/fhair1"
+    },
+
+	{"path": "i/avatars/ministores/pier/ministores_fight/outfit_010/fglove8", "type": "glove"},
+	{"type": "bott", "path": "i/avatars/attire/03004/fpants1"},
+	{"type": "top", "path": "i/avatars/attire/06000/fshirt5"},
+	{"type": "shoe", "path": "i/avatars/attire/02001/fshoes2"},
+	{"type": "eyes", "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/feye1"},
+	{"type": "monthly", "path": "i/avatars/items/monthly/2009_10/fmouth1"}
+]
+
+

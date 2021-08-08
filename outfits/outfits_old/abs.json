@@ -1,0 +1,38 @@
+[
+    {
+        "type": "sock",
+        "path": "i/celeb/avatars/starter/underwear/outfit_001/msocks1"
+    },
+    {
+        "type": "hand",
+        "path": "i/celeb/avatars/starter/underwear/outfit_001/mglove1"
+    },
+    {
+        "type": "hair",
+        "path": "i/celeb/avatars/starter/hair/mhair7"
+    },
+    {
+        "type": "bott",
+        "path": "i/celeb/avatars/starter/club/mpants3"
+    },
+    {
+        "type": "shoe",
+        "path": "i/celeb/avatars/starter/club/mshoes3"
+    },
+    {
+        "type": "head",
+        "path": "i/vg/avatars/faces/male/heads/mhead07"
+    },
+    {
+        "type": "brow",
+        "path": "i/vg/avatars/faces/male/eyebrows/meyebrow01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/vg/avatars/faces/male/eyes/meye04"
+    },
+    {
+        "type": "nose",
+        "path": "i/vg/avatars/faces/male/nose/mnose06"
+    }
+]

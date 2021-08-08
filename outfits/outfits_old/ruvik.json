@@ -1,0 +1,142 @@
+[
+    {
+        "type": "bott",
+        "path": "i/avatars/attire/underwear/fpants1"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/attire/underwear/fshirt1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/underwear/fsock1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow05"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth011"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose009"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead01"
+    },
+    {
+        "type": "canh",
+        "path": "i/avatars/items/candy_hair/canh_001"
+    },
+    {
+        "type": "hats",
+        "path": "i/avatars/attire/03028/fhat5"
+    },
+    {
+        "type": "cane",
+        "path": "i/avatars/items/candy_eye/cane_001"
+    },
+    {
+        "type": "cans",
+        "path": "i/avatars/items/candy_skin/cans_002"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/04005/fhair2"
+    },
+    {
+        "type": "scar",
+        "path": "i/avatars/items/monthly/2011_10/fscarf5"
+    },
+    {
+        "type": "wing",
+        "path": "i/avatars/ministores/blind_box/fright_box_005/outfit_010/wings1"
+    },
+    {
+        "type": "mask",
+        "path": "i/avatars/events/halloween/2015/outfit_001/fmask1"
+    },
+    {
+        "type": "coat",
+        "path": "i/avatars/events/summer/2016/outfit_002/fjacket1"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/items/monthly/2016_10/ta_01/ta01_01"
+    },
+    {
+        "type": "bags",
+        "path": "i/avatars/items/monthly/2016_11/fbags3"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/ministores/blind_box/bento_box_006/outfit_004/ta01_05"
+    },
+    {
+        "type": "hand",
+        "path": "i/avatars/events/halloween/2018/outfit_009/fglove2"
+    },
+    {
+        "type": "ta01",
+        "path": "i/avatars/items/monthly/2019_05/ta_01/ta01_01"
+    },
+    {
+        "type": "ta03",
+        "path": "i/avatars/items/monthly/2019_05/ta_03/ta03_01"
+    },
+    {
+        "type": "ta05",
+        "path": "i/avatars/items/monthly/2019_05/ta_05/ta05_01"
+    },
+    {
+        "type": "ta06",
+        "path": "i/avatars/items/monthly/2019_05/ta_06/ta06_01"
+    },
+    {
+        "type": "ta07",
+        "path": "i/avatars/items/monthly/2019_05/ta_07/ta07_01"
+    },
+    {
+        "type": "ta08",
+        "path": "i/avatars/items/monthly/2019_05/ta_08/ta08_01"
+    },
+    {
+        "type": "ta09",
+        "path": "i/avatars/items/tattoo/tattoo_001/ta09/ta09_01"
+    }
+]
