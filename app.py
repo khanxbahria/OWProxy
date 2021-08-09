@@ -1,6 +1,8 @@
 import sys
 import asyncio
 import platform
+from os import path
+
 
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
@@ -23,7 +25,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         super().__init__()
         self.setupUi(self)
-        self.setWindowIcon(QIcon('gui/thumbnail.png'))
+        icon_path = path.abspath(path.join(
+                        path.dirname(__file__), 'gui/thumbnail.png'))
+        self.setWindowIcon(QIcon(icon_path))
 
 
         self.set_hosts()

@@ -2,6 +2,7 @@ import asyncio
 import sys
 import importlib
 import os
+from os import path
 import json
 from traceback import print_exc
 
@@ -19,7 +20,9 @@ class ProxyServer:
                                          + self.load_plugins("plugins")
 
     def load_plugins(self, plugin_type):
-        with open('plugins.json') as f:
+        json_path = path.abspath(path.join(
+                            path.dirname(__file__), 'plugins.json'))
+        with open(json_path) as f:
             data = json.load(f)
         plugin_names = data[plugin_type]
         plugins = [
