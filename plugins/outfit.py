@@ -100,7 +100,7 @@ class Plugin:
 
         wl_cond = (b"\x0c<\x00\x00\x00\x02" in flow.payload 
                 and b"\xff\xfc\x0c\x14\x00\x00\x00\x08\x0cv" in flow.payload
-                 and other_items_cond)
+                 and others_items_cond)
 
         if OutfitManager.wl_active and wl_cond:
             # Wishlist detected refresh outfit
