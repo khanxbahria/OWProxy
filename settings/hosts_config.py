@@ -1,6 +1,7 @@
 import os
 import platform
 from traceback import print_exc
+import subprocess
 
 
 class HostsConfig:
@@ -17,9 +18,12 @@ class HostsConfig:
 
     def flush_dns(self):
         if self.os == "Windows":
-            os.system("ipconfig /flushdns")
+            startupinfo = subprocess.STARTUPINFO()
+            startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+            subprocess.run(["ipconfig", "/flushdns"],
+                             shell=False, startupinfo=startupinfo)
         else:
-            os.system("killall -HUP mDNSResponder")
+            subprocess.run(["killall", "-HUP", "mDNSResponder"])
 
     def load_hosts(self):
         try:
