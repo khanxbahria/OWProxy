@@ -32,7 +32,7 @@ The functionality can be extended with custom plugins.
 ## Getting Started
 
 ## Windows
-1. Download the latest Windows release here: [OWProxy for Windows](./releases/latest/download/OWProxy_windows.zip).
+1. Download the latest Windows release here: [OWProxy for Windows](https://github.com/khanxbahria/releases/latest/download/OWProxy-win64.zip).
 2. Extract the folder.
 3. Before opening ourWorld client run OWProxy.exe
 
@@ -45,13 +45,13 @@ Download Python here: [https://www.python.org/downloads/](https://www.python.org
 
 ### Installation
 
-1. Download the latest source release here: [OWProxy Source](./releases/latest/download/OWProxy_source.zip).
+1. Download the latest source release here: [OWProxy Source](https://github.com/khanxbahria/OWProxy/archive/refs/heads/main.zip.
 2. Extract the folder.
-3. Open terminal in the same folder:
+3. Open terminal in the same folder, I am not going to teach you that.
   ```bash
   pip3 install -r requirements.txt
   ```
-You need to do this just once.
+^ You need to do that just once.
 
 
 <!-- USAGE EXAMPLES -->
@@ -60,7 +60,7 @@ You need to do this just once.
 [![OWProxy Mac Usage][Screenshot-Mac-Usage]](https://github.com/khanxbahria/OWProxy)
 
 Before opening ourWorld client:  
-  Run
+  Open terminal in the same folder,
   ```bash 
   sudo python3 app.py
   ```  
