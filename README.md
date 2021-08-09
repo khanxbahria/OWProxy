@@ -32,7 +32,7 @@ The functionality can be extended with custom plugins.
 ## Getting Started
 
 ## Windows
-1. Download the latest Windows release here: [OWProxy for Windows](https://github.com/khanxbahria/releases/latest/download/OWProxy-win64.zip).
+1. Download the latest Windows release here: [OWProxy for Windows](https://github.com/khanxbahria/OWProxy/releases/latest/download/OWProxy-win64.zip).
 2. Extract the folder.
 3. Before opening ourWorld client run OWProxy.exe
 
