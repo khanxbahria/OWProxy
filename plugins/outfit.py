@@ -140,7 +140,7 @@ class Plugin:
             try:
                 data = self.p2fit2(payload)
             except:
-                print(f"Couldn't parse outfit payload {payload}")
+                # print(f"Couldn't parse outfit payload {payload}")
                 data = []
         return data
 
