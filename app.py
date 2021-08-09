@@ -137,7 +137,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
 def main():
     app = QApplication(sys.argv)
-    app.setStyle('Fusion')
 
 
     loop = qasync.QEventLoop(app)
