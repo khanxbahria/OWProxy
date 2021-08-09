@@ -45,7 +45,7 @@ Download Python here: [https://www.python.org/downloads/](https://www.python.org
 
 ### Installation
 
-1. Download the latest source release here: [OWProxy Source](https://github.com/khanxbahria/OWProxy/archive/refs/heads/main.zip.
+1. Download the latest source release here: [OWProxy Source](https://github.com/khanxbahria/OWProxy/archive/refs/heads/main.zip).
 2. Extract the folder.
 3. Open terminal in the same folder, I am not going to teach you that.
   ```bash
