@@ -96,11 +96,13 @@ class Plugin:
 
         others_items_cond = (b"i/avatars" in flow.payload
                          and not UserID.uid_hex in flow.payload)
+        my_items_cond = (b"i/avatars" in flow.payload
+                         and UserID.uid_hex in flow.payload)
 
 
         wl_cond = (b"\x0c<\x00\x00\x00\x02" in flow.payload 
                 and b"\xff\xfc\x0c\x14\x00\x00\x00\x08\x0cv" in flow.payload
-                 and others_items_cond)
+                 and my_items_cond)
 
         if OutfitManager.wl_active and wl_cond:
             # Wishlist detected refresh outfit
