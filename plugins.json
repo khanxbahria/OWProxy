@@ -1,0 +1,4 @@
+{
+    "core_plugins": ["session_userid"],
+    "plugins": ["outfit", "shield"]
+}
