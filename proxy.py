@@ -39,7 +39,7 @@ class ProxyServer:
         print("[+] New session connected.")
         remote_reader, remote_writer = await asyncio.open_connection(
                                         Settings.gamehost_ip, 9310,
-                                         limit=4096*1000)
+                                         limit=4096*2000)
         session = Session(local_reader, local_writer,
                          remote_reader, remote_writer, self.plugins)
         self.sessions.append(session)
