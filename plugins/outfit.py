@@ -94,8 +94,8 @@ class Plugin:
             self.show_outfit()
             self.send_next = False
 
-        my_items_cond = (b"i/avatars" in flow.payload
-                         and UserID.uid_hex in flow.payload)
+        others_items_cond = (b"i/avatars" in flow.payload
+                         and not UserID.uid_hex in flow.payload)
 
 
         wl_cond = (b"\x0c<\x00\x00\x00\x02" in flow.payload 
@@ -108,12 +108,9 @@ class Plugin:
             OutfitManager.current_outfit = OutfitInfo(outfit_data)
             self.send_next = True
 
-        elif my_items_cond:
-            new_outfit = self.payload_to_outfit(flow.payload)
-            cur_outfit = OutfitManager.current_outfit.data
+        elif others_items_cond:
             # If any item detected refresh outfit
-            if new_outfit and cur_outfit != new_outfit:
-                self.send_next = True
+            self.send_next = True
 
 
     def show_outfit(self):
@@ -134,6 +131,9 @@ class Plugin:
         self.proxy.send_outgoing_payload(payload)
 
     def payload_to_outfit(self,payload):
+        # dont parse payload if too long
+        if len(payload) > 2444:
+            return []
         try:
             data = self.p2fit1(payload)
         except:
