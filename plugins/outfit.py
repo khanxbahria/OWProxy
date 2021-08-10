@@ -82,7 +82,7 @@ class Plugin:
     def start_outfit_task(self, x):
         if x:
             self.outfit_task = asyncio \
-                        .ensure_future(self.send_outfit_periodic(5))
+                        .ensure_future(self.send_outfit_periodic(10))
         else:
             self.outfit_task.cancel()
 
