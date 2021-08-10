@@ -89,7 +89,7 @@ class Plugin:
 
     async def send_outfit_periodic(self, delay):
         while True:
-            self.show_outfit()
+            self.force_update()
             await asyncio.sleep(delay)
 
     def process_outgoing(self, flow):
