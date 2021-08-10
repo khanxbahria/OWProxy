@@ -14,7 +14,8 @@ class URLParser:
     def parse(self):
         if not b"http" in self.og_payload:
             return
-        r = re.search(b"(?P<url>https?://[^\s]+)", self.og_payload,flags=re.DOTALL)
+        r = re.search(b"(?P<url>https?://[^\s]+)",
+                             self.og_payload, flags=re.DOTALL)
         if not r:
             return False
         url_i = r.start()
@@ -25,8 +26,10 @@ class URLParser:
         return self.og_url
 
     def replace(self):
-        new_with_len = len(self.new_url).to_bytes(2, 'big') + self.new_url.encode()
-        new_payload = self.og_payload.replace(self.og_with_len, new_with_len)
+        new_with_len = len(self.new_url).to_bytes(2, 'big') 
+        new_with_len += self.new_url.encode()
+        new_payload = self.og_payload\
+                            .replace(self.og_with_len, new_with_len)
         self.flow.payload = new_payload
 
     def replace_unknown(self):
@@ -43,7 +46,8 @@ class URLParser:
         av_ident = b"/players/g"
         if av_ident in self.flow.payload:
             # print("blocking avi image")
-            self.flow.payload = self.flow.payload.replace(av_ident, b"a"*len(av_ident))        
+            self.flow.payload = self.flow.payload\
+                                    .replace(av_ident, b"a"*len(av_ident))
 
 
 class Plugin:
