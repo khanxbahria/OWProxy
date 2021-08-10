@@ -49,10 +49,11 @@ class ProxyServer:
         try:
             await asyncio.gather(pipe1, pipe2)
         except:
-            print_exc()
+            # print_exc()
+            pass
         finally:
-            if session in self.sessions:
-                session.close()
+            # close all sessions
+            self.close_current_sessions()
 
     def send_outgoing_payload(self, payload):
         if UserID.uid:
