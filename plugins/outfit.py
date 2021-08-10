@@ -68,9 +68,6 @@ class OutfitManager:
 
   
 
-
-
-
 OutfitManager.load_data()
 OutfitManager.select_current_outfit("Wishlist")
 
@@ -79,11 +76,22 @@ class Plugin:
     def __init__(self, proxy):
         self.proxy = proxy
         self.is_active = False
-        self.send_next = False
+
+        self.send_outfit_task = None
 
     def activate(self, x=True):
         self.is_active = x
-        # do something
+        if x:
+            self.task = asyncio \
+                        .ensure_future(self.send_outfit_periodic(5))
+        else:
+            self.task.cancel()
+
+
+    async def send_outfit_periodic(self, delay):
+        while True:
+            self.show_outfit()
+            await asyncio.sleep(delay)
 
     def process_outgoing(self, flow):
         # flow.payload
@@ -94,31 +102,17 @@ class Plugin:
             self._process_incoming(flow)
 
     def _process_incoming(self, flow):
-        if self.send_next:
-            # Send outfit payload
-            self.show_outfit()
-            self.send_next = False
-
-        others_items_cond = (b"i/avatars" in flow.payload
-                         and not UserID.uid_hex in flow.payload)
         my_items_cond = (b"i/avatars" in flow.payload
                          and UserID.uid_hex in flow.payload)
-
 
         wl_cond = (b"\x0c<\x00\x00\x00\x02" in flow.payload 
                 and b"\xff\xfc\x0c\x14\x00\x00\x00\x08\x0cv" in flow.payload
                  and my_items_cond)
 
         if OutfitManager.wl_active and wl_cond:
-            # Wishlist detected refresh outfit
+            # Wishlist detected update outfit
             outfit_data = self.payload_to_outfit(flow.payload)
             OutfitManager.current_outfit = OutfitInfo(outfit_data)
-            self.send_next = True
-
-        elif others_items_cond:
-            # If any item detected refresh outfit
-            self.send_next = True
-
 
     def show_outfit(self):
         cur_outfit = OutfitManager.current_outfit
