@@ -121,7 +121,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def on_outfit_activate(self, activate):
         outfit.OutfitManager.is_active = activate
-        self.outfit_plugin.start_outfit_task(activate)
+        # self.outfit_plugin.start_outfit_task(activate)
         if activate:
             self.on_load_outfit()
             self.outfitActivateBtn.setText("Deactivate")
