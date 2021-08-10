@@ -118,6 +118,7 @@ class Session:
             if flow.payload:
                 payload = Payload(flow.payload).encode()
                 dst_writer.write(payload)
+                await dst_writer.drain()
                     
 
     def send_payload(self, payload, is_outgoing):
