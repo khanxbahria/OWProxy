@@ -29,6 +29,7 @@ class OutfitManager:
     outfits = {}
     current_outfit = OutfitInfo([])
     wl_active = False
+    is_active = False
 
 
     @classmethod
@@ -75,17 +76,15 @@ OutfitManager.select_current_outfit("Wishlist")
 class Plugin:
     def __init__(self, proxy):
         self.proxy = proxy
-        self.is_active = False
 
-        self.send_outfit_task = None
+        self.outfit_task = None
 
-    def activate(self, x=True):
-        self.is_active = x
+    def start_outfit_task(self, x):
         if x:
-            self.task = asyncio \
+            self.outfit_task = asyncio \
                         .ensure_future(self.send_outfit_periodic(5))
         else:
-            self.task.cancel()
+            self.outfit_task.cancel()
 
 
     async def send_outfit_periodic(self, delay):
@@ -98,7 +97,7 @@ class Plugin:
         pass
 
     def process_incoming(self, flow):
-        if self.is_active:
+        if OutfitManager.is_active:
             self._process_incoming(flow)
 
     def _process_incoming(self, flow):
