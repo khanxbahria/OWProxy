@@ -28,7 +28,7 @@ class URLParser:
     def replace(self):
         new_with_len = len(self.new_url).to_bytes(2, 'big') 
         new_with_len += self.new_url.encode()
-        new_payload = self.og_payload\
+        new_payload = self.og_payload \
                             .replace(self.og_with_len, new_with_len)
         self.flow.payload = new_payload
 
@@ -46,7 +46,7 @@ class URLParser:
         av_ident = b"/players/g"
         if av_ident in self.flow.payload:
             # print("blocking avi image")
-            self.flow.payload = self.flow.payload\
+            self.flow.payload = self.flow.payload \
                                     .replace(av_ident, b"a"*len(av_ident))
 
 
