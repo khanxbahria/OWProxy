@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import asyncio
 
 from core_plugins.session_userid import UserID
 
@@ -28,7 +29,6 @@ class OutfitManager:
     outfits = {}
     current_outfit = OutfitInfo([])
     wl_active = False
-    is_active = False
 
 
     @classmethod
@@ -78,14 +78,19 @@ OutfitManager.select_current_outfit("Wishlist")
 class Plugin:
     def __init__(self, proxy):
         self.proxy = proxy
+        self.is_active = False
         self.send_next = False
+
+    def activate(self, x=True):
+        self.is_active = x
+        # do something
 
     def process_outgoing(self, flow):
         # flow.payload
         pass
 
     def process_incoming(self, flow):
-        if OutfitManager.is_active:
+        if self.is_active:
             self._process_incoming(flow)
 
     def _process_incoming(self, flow):
