@@ -27,7 +27,8 @@ class ProxyServer:
         plugin_names = data[plugin_type]
         plugins = [
             importlib.import_module(
-                f"{plugin_type}.{plugin}").Plugin(self) for plugin in plugin_names
+                f"{plugin_type}.{plugin}").Plugin(self)
+                                 for plugin in plugin_names
         ]
         return plugins
 
