@@ -78,6 +78,7 @@ class Plugin:
         self.proxy = proxy
 
         self.outfit_task = None
+        self.twin_uidhex = b""
 
     def start_outfit_task(self, x):
         if x:
@@ -93,6 +94,13 @@ class Plugin:
             await asyncio.sleep(delay)
 
     def process_outgoing(self, flow):
+        if b"\xd7\x00\x02\x0cp" in flow.payload:
+            # dance requested
+            self.twin_uidhex = flow.payload[-4:]
+            flow.payload = b""
+            # requesting outfit instead
+            self.ask_user_outfit(self.twin_uidhex)
+    
         # flow.payload
         pass
 
@@ -113,6 +121,18 @@ class Plugin:
             outfit_data = self.payload_to_outfit(flow.payload)
             OutfitManager.current_outfit = OutfitInfo(outfit_data)
 
+        fit_ident = b"location\x1b\xc1\x00\x00\x0f\xb5\x00\x00\x00\x00\x0cv"
+        twin_cond = ( self.twin_uidhex and fit_ident in flow.payload
+                                     and self.twin_uidhex in flow.payload )
+        if twin_cond:
+            outfit_data = self.payload_to_outfit(flow.payload)
+            OutfitManager.current_outfit = OutfitInfo(outfit_data)
+            self.show_outfit()
+            OutfitManager.wl_active = False
+            self.twin_uidhex = b""
+
+
+
     def show_outfit(self):
         cur_outfit = OutfitManager.current_outfit
         if cur_outfit.data:
@@ -130,9 +150,16 @@ class Plugin:
                     +b'\x00\x08\x0c<\x00\x00\x00\x02' )
         self.proxy.send_outgoing_payload(payload)
 
+    def ask_user_outfit(self, uid_hex):
+        payload  = b"\x00\x00\x00\x1d\x01\x00\x00\x00\x9f\x00\x00"
+        payload += b"\x00R\x00\x02\x18a\x00\x08location\x0c["
+        payload += uid_hex
+        self.proxy.send_outgoing_payload(payload)
+
     def payload_to_outfit(self,payload):
         # dont parse payload if too long
-        if len(payload) > 2444:
+        if len(payload) > 6000:
+            # payload too long
             return []
         try:
             data = self.p2fit2(payload)
