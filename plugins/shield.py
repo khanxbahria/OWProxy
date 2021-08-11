@@ -14,7 +14,7 @@ class URLBlocker:
 
     def block_malicious(self):
         self.flow.payload = self.flow.payload.replace(b"http",b"abcd")
-        if b"\x19L" in self.flow.payload and "players/g" in self.flow.payload:
+        if b"\x19L" in self.flow.payload and b"players/g" in self.flow.payload:
             self.replace_avi_image()
 
 class Plugin:
