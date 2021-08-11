@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/khanxbahria/OWProxy">
-    <img src="./gui/thumbnail.png" alt="Logo" width="80" height="80">
+    <img src="./gui/icon.ico" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">OWProxy</h3>
@@ -22,7 +22,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./images/Screenshot-Window.png" alt="OWProxy Screenshot" width="550">
+![OWProxy Screenshot](https://i.imgur.com/diZxGEyl.png)
+![OWProxy Screenshot Updated](https://i.imgur.com/FmNk7Wnm.png)
 
 OWProxy is a custom TCP proxy to manipulate inbound and outbound payloads for ourWorld session.  
 The functionality can be extended with custom plugins.  
@@ -57,7 +58,7 @@ Download Python here: [https://www.python.org/downloads/](https://www.python.org
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[![OWProxy Mac Usage][Screenshot-Mac-Usage]](https://github.com/khanxbahria/OWProxy)
+[![OWProxy Mac Usage](https://i.imgur.com/pVgFppE.png)](https://github.com/khanxbahria/OWProxy)
 
 Before opening ourWorld client:  
   Open terminal in the same folder,
@@ -76,11 +77,15 @@ Lets you wear any possible outfit.
   ### outfits folder
   Outfits are loaded from and saved to outfits folder.  
   Additional outfits are added from jess's scripts into a subdirectory, outfits_old. You may choose to move them back to outfits folder to be able to use.
+
 ## Shield
 
 This plugin blocks potentially malicious urls, allowing players to be protected from malicious session hijacking.  
-Cons: It does not load avatar photos and photo albums when activated.
+All the loaded avatar images are replaced with NPC Edwin's image to protect the client from arbitrary code execution.
 
+## Profile Color Change
+![OWProxy Color Change](https://i.imgur.com/rtL9enWl.png)  
+Change the color once the client is connected. You may have to restart the client for new color to be updated on your client.
 
 ### Disclaimer
 
@@ -94,10 +99,4 @@ Cons: It does not load avatar photos and photo albums when activated.
 
 ![](https://discord-md-badge.vercel.app/api/shield/593752934496337920)
 
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Screenshot-Mac-Usage]: images/Screenshot-Mac-Usage.png
 
