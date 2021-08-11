@@ -34,7 +34,7 @@ class OutfitManager:
 
     @classmethod
     def load_data(cls):
-        for fname in os.listdir('outfits'):
+        for fname in sorted(os.listdir('outfits')):
             if not fname.endswith('.json'):
                 continue
             name = fname[:-5]
