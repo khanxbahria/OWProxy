@@ -5,7 +5,8 @@ from os import path
 
 
 from PyQt5.QtGui import QIcon
-from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QMessageBox, QColorDialog
 from PyQt5 import QtGui, QtCore
 import qasync
 
@@ -16,6 +17,7 @@ from settings import Settings, GAMEHOSTS
 
 from plugins import outfit
 from plugins import shield
+from core_plugins.session_userid import UserID
 
 
 class MainWindow(QMainWindow, Ui_MainWindow):
@@ -70,6 +72,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         style_sheet += f"    image: url({color_path});"
         style_sheet +=  "}"
         self.profileColorBtn.setStyleSheet(style_sheet)
+
+        self.profileColorBtn.clicked.connect(self.prof_color)
 
 
 
@@ -142,6 +146,16 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.shieldActivateBtn.setText("Deactivate")
         else:
             self.shieldActivateBtn.setText("Activate")
+
+    def prof_color(self):
+        color_obj = QColorDialog.getColor()
+        if not color_obj.isValid():
+            return
+        color = color_obj.name()[1:]
+        packet = b'\x00\x00\x00\x29\x01\x00\x00\x00\x8F\x00\x00\x00\x5D\x00\x05\x0F\x2A\x00\x00\x00\x01\x0C\x5B' + \
+            UserID.uid_hex + b'\x0E\x7D\x00' + bytearray.fromhex(color) + \
+            b'\x0E\x7E\x00\x00\x00\x00\x0E\x87\x00\x00\x00\x00'
+        self.proxy.send_outgoing_payload(packet)
 
 
 def main():
