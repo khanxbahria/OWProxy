@@ -1,10 +1,8 @@
 import sys
 import asyncio
 import platform
-from os import path
 
 
-from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtWidgets import QMessageBox, QColorDialog
 from PyQt5 import QtGui, QtCore
@@ -12,6 +10,8 @@ import qasync
 
 
 from gui.MainWindow import Ui_MainWindow
+from gui import resource_rc
+
 from proxy import ProxyServer
 from settings import Settings, GAMEHOSTS
 
@@ -27,9 +27,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         super().__init__()
         self.setupUi(self)
-        icon_path = path.abspath(path.join(
-                        path.dirname(__file__), 'gui/thumbnail.png'))
-        self.setWindowIcon(QIcon(icon_path))
 
 
         self.set_hosts()
@@ -64,14 +61,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         self.shieldActivateBtn.toggled.connect(self.on_shield_activate)
         self.shieldActivateBtn.setChecked(True)
-
-
-        color_path = path.abspath(path.join(
-                        path.dirname(__file__), 'gui/color.png'))
-        style_sheet  =  "QPushButton {" 
-        style_sheet += f"    image: url({color_path});"
-        style_sheet +=  "}"
-        self.profileColorBtn.setStyleSheet(style_sheet)
 
         self.profileColorBtn.clicked.connect(self.prof_color)
 

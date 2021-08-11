@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'mainwindow.ui'
+# Form implementation generated from reading ui file '.\mainwindow.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #
@@ -14,12 +14,15 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(306, 369)
+        MainWindow.resize(271, 311)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
         MainWindow.setSizePolicy(sizePolicy)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/images/icon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
@@ -125,7 +128,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.addWidget(self.shieldActivateBtn)
         self.verticalLayout_3.addWidget(self.groupBox_3)
         self.horizontalLayout_4 = QtWidgets.QHBoxLayout()
-        self.horizontalLayout_4.setContentsMargins(-1, 6, -1, 6)
+        self.horizontalLayout_4.setContentsMargins(-1, 3, -1, 3)
         self.horizontalLayout_4.setObjectName("horizontalLayout_4")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
@@ -141,6 +144,9 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.profileColorBtn.sizePolicy().hasHeightForWidth())
         self.profileColorBtn.setSizePolicy(sizePolicy)
+        self.profileColorBtn.setStyleSheet("QPushButton {\n"
+"    image: url(\":/images/color.png\");\n"
+"}")
         self.profileColorBtn.setText("")
         self.profileColorBtn.setObjectName("profileColorBtn")
         self.horizontalLayout_4.addWidget(self.profileColorBtn)
@@ -174,6 +180,7 @@ class Ui_MainWindow(object):
         self.outfitActivateBtn.setText(_translate("MainWindow", "Activate"))
         self.groupBox_3.setTitle(_translate("MainWindow", "Shield"))
         self.shieldActivateBtn.setText(_translate("MainWindow", "Deactivate"))
-        self.label_2.setText(_translate("MainWindow", "Change Profile Color"))
+        self.label_2.setText(_translate("MainWindow", "Change Profile Color (Refresh Required)"))
         self.label.setText(_translate("MainWindow", "https://github.com/khanxbahria/OWProxy"))
         self.actionAbout.setText(_translate("MainWindow", "About"))
+from . import resource_rc

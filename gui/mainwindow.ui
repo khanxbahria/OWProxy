@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>306</width>
-    <height>369</height>
+    <width>271</width>
+    <height>311</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,6 +18,10 @@
   </property>
   <property name="windowTitle">
    <string>OWProxy</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/images/icon.ico</normaloff>:/images/icon.ico</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
@@ -177,10 +181,10 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_4">
       <property name="topMargin">
-       <number>6</number>
+       <number>3</number>
       </property>
       <property name="bottomMargin">
-       <number>6</number>
+       <number>3</number>
       </property>
       <item>
        <widget class="QLabel" name="label_2">
@@ -191,7 +195,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Change Profile Color</string>
+         <string>Change Profile Color (Refresh Required)</string>
         </property>
        </widget>
       </item>
@@ -202,6 +206,11 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    image: url(&quot;:/images/color.png&quot;);
+}</string>
         </property>
         <property name="text">
          <string/>
@@ -240,6 +249,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
  <connections/>
 </ui>
