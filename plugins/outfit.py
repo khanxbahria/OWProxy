@@ -158,7 +158,7 @@ class Plugin:
 
     def payload_to_outfit(self,payload):
         # dont parse payload if too long
-        if len(payload) > 6000:
+        if len(payload) > 38294:
             # payload too long
             return []
         try:
