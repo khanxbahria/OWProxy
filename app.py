@@ -64,6 +64,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.shieldActivateBtn.setChecked(True)
 
 
+        color_path = path.abspath(path.join(
+                        path.dirname(__file__), 'gui/color.png'))
+        style_sheet  =  "QPushButton {" 
+        style_sheet += f"    image: url({color_path});"
+        style_sheet +=  "}"
+        self.profileColorBtn.setStyleSheet(style_sheet)
+
+
 
 
 
