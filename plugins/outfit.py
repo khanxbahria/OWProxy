@@ -135,26 +135,11 @@ class Plugin:
         if len(payload) > 2444:
             return []
         try:
-            data = self.p2fit1(payload)
+            data = self.p2fit2(payload)
         except:
-            try:
-                data = self.p2fit2(payload)
-            except:
                 # print(f"Couldn't parse outfit payload {payload}")
                 data = []
         return data
-
-
-
-    def p2fit1(self, payload):
-        paths_i = [m.start() for m in re.finditer(b'i/avatars', payload)]
-        paths_len = [int.from_bytes(payload[i-2:i], 'big') for i in paths_i]
-        paths = [payload[i:i+path_len].decode() for i, path_len in zip(paths_i, paths_len)]
-        types_i = [m.start() for m in re.finditer(b'\r7', payload)]
-        types_len = [int.from_bytes(payload[i+8:i+10], 'big') for i in types_i]
-        types = [payload[i+10:i+10+type_len].decode() for i, type_len in zip(types_i, types_len)]
-        tup = zip(types, paths)
-        return [{"type":type, "path":path} for type,path in tup]
 
     def p2fit2(self, message):
         """
