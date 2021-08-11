@@ -87,7 +87,7 @@ Lets you wear any possible outfit.
 This plugin blocks potentially malicious urls, allowing players to be protected from malicious session hijacking.  
 All the loaded avatar images are replaced with NPC Edwin's image to protect the client from arbitrary code execution.
 
-## Profile Color Change
+## Change Profile Color
 ![OWProxy Color Change](https://i.imgur.com/rtL9enWl.png)  
 Change the color once the client is connected. You may have to restart the client for new color to be updated on your client.
 
