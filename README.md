@@ -78,6 +78,10 @@ Lets you wear any possible outfit.
   Outfits are loaded from and saved to outfits folder.  
   Additional outfits are added from jess's scripts into a subdirectory, outfits_old. You may choose to move them back to outfits folder to be able to use.
 
+  ### Outfit Clone
+  The **Dance off** button is mapped to clone that user's outfit. The dance request to that user is not sent, but their outfit is cloned on your avatar instead.
+
+
 ## Shield
 
 This plugin blocks potentially malicious urls, allowing players to be protected from malicious session hijacking.  
