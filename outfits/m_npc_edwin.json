@@ -1,0 +1,38 @@
+[
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/npc_edwin/mhair1"
+    },
+    {
+        "type": "pant",
+        "path": "i/avatars/events/redcarpet/2018/outfit_004/mpants1"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/events/redcarpet/2018/outfit_002/mshoes3"
+    },
+    {
+        "type": "shir",
+        "path": "i/avatars/events/redcarpet/2018/outfit_003/mshirt1"
+    },
+    {
+        "type": "jack",
+        "path": "i/avatars/events/redcarpet/2018/outfit_002/mjacket3"
+    },
+    {
+        "type": "hold",
+        "path": "i/avatars/ministores/blind_box/love_box_005/outfit_001/mhold1/left"
+    },
+    {
+        "type": "tat",
+        "path": "i/avatars/ministores/blind_box/love_box_004/outfit_007/tattoo_001/ta_01/ta01_01"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/ministores/blind_box/fright_box_001/outfit_005/meye1"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/items/monthly/2009_10/mmouth1"
+    }
+]

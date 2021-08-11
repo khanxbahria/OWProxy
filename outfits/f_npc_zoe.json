@@ -1,0 +1,54 @@
+[
+    {
+        "type": "hand",
+        "path": "i/avatars/attire/underwear/fglove1"
+    },
+    {
+        "type": "eyes",
+        "path": "i/avatars/bodies/faces_rev/female/eyes/feye01"
+    },
+    {
+        "type": "brow",
+        "path": "i/avatars/bodies/faces_rev/female/eyebrows/feyebrow01"
+    },
+    {
+        "type": "mout",
+        "path": "i/avatars/bodies/female/faces/mouth001"
+    },
+    {
+        "type": "nose",
+        "path": "i/avatars/bodies/female/faces/nose003"
+    },
+    {
+        "type": "head",
+        "path": "i/avatars/bodies/faces_rev/female/heads/fhead02"
+    },
+    {
+        "type": "neck",
+        "path": "i/avatars/attire/npc_zoe/fnecklace1"
+    },
+    {
+        "type": "bott",
+        "path": "i/avatars/attire/npc_zoe/fpants1"
+    },
+    {
+        "type": "top",
+        "path": "i/avatars/attire/npc_zoe/fshirt1"
+    },
+    {
+        "type": "shoe",
+        "path": "i/avatars/attire/npc_zoe/fshoes1"
+    },
+    {
+        "type": "sock",
+        "path": "i/avatars/attire/npc_zoe/fsocks1"
+    },
+    {
+        "type": "hair",
+        "path": "i/avatars/attire/npc_zoe/fhair1"
+    },
+    {
+        "type": "wril",
+        "path": "i/avatars/attire/npc_zoe/fbracelet1/left"
+    }
+]
