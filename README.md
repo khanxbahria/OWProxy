@@ -1,3 +1,7 @@
+![Maintenance](https://img.shields.io/maintenance/no/2021)
+![GitHub all releases](https://img.shields.io/github/downloads/khanxbahria/OWProxy/total)
+
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -8,7 +12,7 @@
   <h3 align="center">OWProxy</h3>
 
   <p align="center">
-    An extensible TCP Proxy written for ourWorld with Outfit Mod & Shield.
+    An extensible TCP Proxy written for <a href="https://ourworld.com">ourWorld</a> with Outfit Mod & Shield.
     <br />
    <a href="#getting-started">Getting Started</a>
 
@@ -18,12 +22,17 @@
   </p>
 </p>
 
+<!-- PROJECT STATUS -->
+## Project Status
+This project is no longer maintained due to the game being shutdown on 16 Nov 2021.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<p>
+<img alt="OWProxy Screenshot" src="https://i.imgur.com/diZxGEyl.png" width=50% height=50%>
+<img alt="OWProxy Screenshot" src="https://i.imgur.com/FmNk7Wnm.png"width=25% height=25%>
+</p>
 
-![OWProxy Screenshot](https://i.imgur.com/diZxGEyl.png)
-![OWProxy Screenshot Updated](https://i.imgur.com/FmNk7Wnm.png)
 
 OWProxy is a custom TCP proxy to manipulate inbound and outbound payloads for ourWorld session.  
 The functionality can be extended with custom plugins.  
@@ -58,7 +67,7 @@ Download Python here: [https://www.python.org/downloads/](https://www.python.org
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[![OWProxy Mac Usage](https://i.imgur.com/pVgFppE.png)](https://github.com/khanxbahria/OWProxy)
+<img alt="OWProxy Mac Usage" src="https://i.imgur.com/pVgFppE.png" width=50% height=50%>
 
 Before opening ourWorld client:  
   Open terminal in the same folder,
@@ -97,10 +106,4 @@ Change the color once the client is connected. You may have to restart the clien
   The author shall not be liable for any damage to your account whether incurred directly or indirectly.  
   Use at your own risk.  
   
-
-
-###  
-
-![](https://discord-md-badge.vercel.app/api/shield/593752934496337920)
-
 
